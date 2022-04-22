@@ -43,7 +43,7 @@ hs_err_pid*
 /target/
 
 # Local environment
-#.env
+.env
 
 # Spring
 application-default.properties
