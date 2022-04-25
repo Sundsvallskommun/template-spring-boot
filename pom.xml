@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>se.sundsvall.dept44</groupId>
+		<artifactId>dept44-service-parent</artifactId>
+		<version>0.20</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>se.sundsvall</groupId>
+	<artifactId>template</artifactId>
+	<version>1.0</version>
+	<name>template</name>
+	<properties>
+		<!-- Pipeline properties -->
+		<docker.image.name>ms-template</docker.image.name>
+		<exposed.app.port>8080</exposed.app.port>
+		<published.container.port.sandbox>xxx</published.container.port.sandbox>
+		<published.container.port.test>xxx</published.container.port.test>
+		<published.container.port.production>xxx</published.container.port.production>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		
+		<!-- Test -->
+		<dependency>
+			<groupId>se.sundsvall.dept44</groupId>
+			<artifactId>dept44-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
