@@ -17,6 +17,9 @@ bin/
 *.iml
 *.iws
 
+# Visual sturdio
+.vscode/
+
 # Compiled class file
 *.class
 
