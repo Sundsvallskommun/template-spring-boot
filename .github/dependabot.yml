@@ -10,3 +10,6 @@ updates:
     target-branch: "develop"
     schedule:
       interval: "weekly"
+    reviewers:
+      - "Sundsvallskommun/team-unmasked"
+      - "Sundsvallskommun/team-dynasty"
