@@ -15,7 +15,6 @@
 		<!-- Pipeline properties -->
 		<docker.image.name>ms-template</docker.image.name>
 		<exposed.app.port>8080</exposed.app.port>
-		<published.container.port.sandbox>xxx</published.container.port.sandbox>
 		<published.container.port.test>xxx</published.container.port.test>
 		<published.container.port.production>xxx</published.container.port.production>
 	</properties>
