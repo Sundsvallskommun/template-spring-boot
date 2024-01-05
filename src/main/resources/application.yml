@@ -1,0 +1,13 @@
+#========================================
+# General settings
+#========================================
+logging:
+  level:
+    root: INFO
+openapi:
+  name: ${spring.application.name}
+  title: ${spring.application.name}
+  version: '@project.version@'
+spring:
+  application:
+    name: template
