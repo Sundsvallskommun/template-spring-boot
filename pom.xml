@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>se.sundsvall.dept44</groupId>
 		<artifactId>dept44-service-parent</artifactId>
-		<version>5.0.0</version>
+		<version>5.0.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>se.sundsvall</groupId>
@@ -12,10 +12,6 @@
 	<version>1.0</version>
 	<name>template</name>
 	<properties>
-		<!-- Pipeline properties -->
-		<docker.image.name>ms-template</docker.image.name>
-		<published.container.port.test>xxx</published.container.port.test>
-		<published.container.port.production>xxx</published.container.port.production>
 	</properties>
 	<dependencies>
 		<dependency>
