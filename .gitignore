@@ -48,6 +48,9 @@ hs_err_pid*
 # Local environment
 .env
 
+# Mac OS
+.DS_Store 
+
 # Spring
-application-default.properties
+application-default.*
 
