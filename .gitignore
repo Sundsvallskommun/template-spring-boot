@@ -52,5 +52,5 @@ hs_err_pid*
 .DS_Store 
 
 # Spring
-application-default.properties
+application-default.*
 
