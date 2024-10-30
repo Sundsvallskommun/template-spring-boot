@@ -20,7 +20,6 @@ _A concise description of what this Spring Boot microservice does._
    git clone https://github.com/Sundsvallskommun/YOUR-PROJECT-ID.git
    cd YOUR-PROJECT-ID
    ```
-
 2. **Configure the application:**
 
    Before running the application, you need to set up configuration settings.
@@ -39,7 +38,6 @@ _A concise description of what this Spring Boot microservice does._
      ```bash
      mvn spring-boot:run
      ```
-
    - Using Gradle:
 
      ```bash
@@ -51,7 +49,6 @@ _A concise description of what this Spring Boot microservice does._
 This microservice depends on the following services:
 
 - **Service Name**
-
   - **Purpose:** Brief description of what the dependent service does.
   - **Repository:** [Link to the repository](https://github.com/Sundsvallskommun/service_name)
   - **Setup Instructions:** Refer to its documentation for installation and configuration steps.
@@ -90,7 +87,6 @@ Configuration is crucial for the application to run successfully. Ensure all nec
   server:
     port: 8080
   ```
-
 - **Database Settings:**
 
   ```yaml
@@ -100,7 +96,6 @@ Configuration is crucial for the application to run successfully. Ensure all nec
       username: your_db_username
       password: your_db_password
   ```
-
 - **External Service URLs:**
 
   ```yaml
