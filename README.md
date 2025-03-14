@@ -33,16 +33,9 @@ _A concise description of what this Spring Boot microservice does._
 
 4. **Build and run the application:**
 
-   - Using Maven:
-
-     ```bash
-     mvn spring-boot:run
-     ```
-   - Using Gradle:
-
-     ```bash
-     gradle bootRun
-     ```
+   ```bash
+   mvn spring-boot:run
+   ```
 
 ## Dependencies
 
